@@ -3,5 +3,5 @@
 	"modrolename": "Modérateur",
 	"adminrolename": "Owner",
 	"prefix": "/",
-	"token": process.env.TOKEN
+	const token = process.env.TOKEN
 }
