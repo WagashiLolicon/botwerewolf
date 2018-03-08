@@ -35,12 +35,12 @@ exports.run = (client, message, args) => {
                       inline: true
                   },
                   {
-                      name: `Total d'utilisateurs`,
+                      name: `Utilisateurs`,
                       value: `${client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString()}`,
                       inline: true
                   },
                   {
-                      name: `Total des Channels`,
+                      name: `Channels`,
                       value: `${client.channels.size.toLocaleString()}`,
                       inline: true
                   },
