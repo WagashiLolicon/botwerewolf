@@ -12,9 +12,9 @@ var membername = message.author.username
   }
 
   if(getvalueof.bot == true){
-      var checkbot = "L'utilisateur est un bot";
+      var checkbot = "Bot";
   } else {
-      var checkbot = "L'utilisateur n'est pas un bot";
+      var checkbot = "Humain";
   }
   if(getvalueof.presence.status == 'online'){
     var status = "En Ligne";
