@@ -1,5 +1,5 @@
 	const ownerid = `process.env.ownerid`,
-	const modrolename = "Moderateur",
-	const adminrolename = "Administrateur",
-	const prefix = "/",
+	const modrolename = "process.env.modrolename",
+	const adminrolename = "process.env.adminrolename",
+	const prefix = "process.env.prefix",
 	const token = `process.env.token`
