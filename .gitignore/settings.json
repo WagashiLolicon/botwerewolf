@@ -3,5 +3,4 @@
 	"modrolename": "Modérateur",
 	"adminrolename": "Owner",
 	"prefix": "/",
-	"token": process.env.token
 }
