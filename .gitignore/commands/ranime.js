@@ -62,7 +62,8 @@ exports.run = (client, message, args) => {
 	"Gamers! | ★★★★ | ✔",
 	"Danmachi | ★★★★",
 	"Kimi Ni Todoke | ★★★★☆ | ✔",
-	"Mayo Chiki! | ★★★★ | ✔",★
+	"Mayo Chiki! | ★★★★ | ✔",];
+
 		var result = Math.floor((Math.random() * ranime.length) + 1);
 		          message.channel.sendMessage("", {
             embed: {
