@@ -31,5 +31,5 @@ exports.conf = {
 exports.help = {
   name: 'sendembed',
   description: 'Envoie un embed edité.',
-  usage: `${settings.prefix}sendembed + titre + texte, exemple: /sendembed One-Word Your Text`
+  usage: `${settings.prefix}sendembed + titre + texte, exemple: /sendembed No-Space Your Text`
 };
