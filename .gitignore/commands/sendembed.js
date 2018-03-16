@@ -3,7 +3,7 @@ exports.run = function(client, message, args) {
   message.delete(message.author)
           message.channel.sendMessage("", {
             embed: {
-                color: 0xe24dc5,
+                color: 0xabc7d4,
                 title: `Embed edité par ${message.author.username}`,
                 fields: [
                     {
