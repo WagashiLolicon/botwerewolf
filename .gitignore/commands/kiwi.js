@@ -3,7 +3,7 @@ exports.run = (client, message, args) => {
 	function sendKiwi(channel, sender, receiver) {
 		if(receiver.bot === true) return message.channel.send(`:kiwi: ➜ **${sender.username}** a décidé de donnr un kiwi à **<@${receiver.id}>**.. Je suis un bot tu sais ? tu n'as pas d'ami ? ツ >.<`);
 		else if(receiver.id === sender.id) return message.channel.send(`:kiwi: ➜ Pourquoi se donner ses propres kiwis **<@${sender.id}>** ツ ?`);
-		else return message.channel.send(`:kiwi: ➜ **${sender.username}** viens de donner un kiwi à**<@${receiver.id}>** ツ`);
+		else return message.channel.send(`:kiwi: ➜ **${sender.username}** viens de donner un kiwi à **<@${receiver.id}>** ツ`);
 	}
 
 	if(message.mentions.users.first()) return sendKiwi(message.channel, message.author, message.mentions.users.first());
