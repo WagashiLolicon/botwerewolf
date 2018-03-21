@@ -36,7 +36,8 @@ exports.run = (client, message, params) => {
         name: "――――",
         value: `➜ Le prefix actuel de ce bot est ${settings.prefix}
 ➜ [Invitation](${settings.invite})
-➜ [Support](${settings.support})`,
+➜ [Support](${settings.support})
+➜ [PayPal](https://www.paypal.me/Wagashi)`,
       }
     ],
     timestamp: new Date(),
