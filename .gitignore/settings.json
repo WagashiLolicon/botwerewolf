@@ -3,5 +3,7 @@
 	"modrolename": "Modérateur",
 	"adminrolename": "Owner",
 	"prefix": "/",
-	"token": "NDE5ODkwMjE5MDg5Nzg4OTI5.DYRrCw.0Ryu8ju-pzLW9ycO6pc_Ktlfac0"
+	"token": "NDE5ODkwMjE5MDg5Nzg4OTI5.DYRrCw.0Ryu8ju-pzLW9ycO6pc_Ktlfac0",
+	"invite": "https://discordapp.com/oauth2/authorize?=&client_id=419890219089788929&scope=bot&permissions=-1", 
+	"support": "https://discord.gg/9KqaVnR"
 }
