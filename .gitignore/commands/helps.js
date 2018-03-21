@@ -18,7 +18,7 @@ exports.run = (client, message, params) => {
       },
       {
         name: "Modération",
-        value: "clear, ",
+        value: "clear",
       },
       {
         name: "Fun",
