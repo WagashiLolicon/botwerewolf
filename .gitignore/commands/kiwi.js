@@ -15,7 +15,7 @@ exports.conf = {
 	enabled: true,
 	guildOnly: false,
 	aliases: ["kw"],
-	permLevel: 1,
+	permLevel: 0,
 };
 
 exports.help = {
