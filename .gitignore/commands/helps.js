@@ -13,7 +13,7 @@ exports.run = (client, message, params) => {
     url: "",
     description: "",
     fields: [{
-        name: "Coeur",
+        name: "Important",
         value: "help, Information, reload, say, sendembed, serverinfo, support, uptime", 
       },
       {
@@ -29,15 +29,10 @@ exports.run = (client, message, params) => {
         value: "ping, ranime, vote",
       },
       {
-        name: "Nsfw",
-        value: "✘",
-      },
-      {
         name: "――――",
         value: `➜ Le prefix actuel de ce bot est ${settings.prefix}
 ➜ [Invitation](${settings.invite})
-➜ [Support](${settings.support})
-➜ [PayPal](https://www.paypal.me/Wagashi)`,
+➜ [Support](${settings.support}),
       }
     ],
     timestamp: new Date(),
