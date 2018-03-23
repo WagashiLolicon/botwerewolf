@@ -13,7 +13,7 @@ exports.run = (client, message, params) => {
     url: "",
     description: "",
     fields: [{
-        name: "Important",
+        name: "Coeur",
         value: "help, Information, reload, say, sendembed, serverinfo, support, uptime", 
       },
       {
@@ -32,7 +32,7 @@ exports.run = (client, message, params) => {
         name: "――――",
         value: `➜ Le prefix actuel de ce bot est ${settings.prefix}
 ➜ [Invitation](${settings.invite})
-➜ [Support](${settings.support}),
+➜ [Support](${settings.support})`,
       }
     ],
     timestamp: new Date(),
