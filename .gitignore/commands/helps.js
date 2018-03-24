@@ -14,7 +14,7 @@ exports.run = (client, message, params) => {
     description: "",
     fields: [{
         name: "Coeur",
-        value: "help, Information, reload, say, sendembed, serverinfo, support, uptime", 
+        value: "help, Information, reload, say, sendembed,\nserverinfo, support, uptime", 
       },
       {
         name: "Modération",
