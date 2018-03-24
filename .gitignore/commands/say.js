@@ -6,7 +6,7 @@ exports.run = (client, message, args) => {
 				name: `Message de ${message.author.username}`,
 				icon_url: message.author.avatarURL
 			},
-			description: message.content.split(' ')[1]`,
+			description: `${args}`,
 			color: 0x360721
 		}
 	}).then(message.delete());
@@ -16,7 +16,7 @@ exports.conf = {
 	enabled: true,
 	guildOnly: false,
 	aliases: [""],
-	permLevel: 0,
+	permLevel: 1,
 };
 
 exports.help = {
