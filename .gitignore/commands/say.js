@@ -6,7 +6,7 @@ exports.run = (client, message, args) => {
 				name: `Message de ${message.author.username}`,
 				icon_url: message.author.avatarURL
 			},
-			description: args`,
+			description: message.content.split(' ')[1]`,
 			color: 0x360721
 		}
 	}).then(message.delete());
