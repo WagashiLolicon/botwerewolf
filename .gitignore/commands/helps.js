@@ -14,7 +14,7 @@ exports.run = (client, message, params) => {
     description: "",
     fields: [{
         name: "Coeur",
-        value: "help, Information, reload, say, sendembed, serverinfo, support, uptime", 
+        value: "help, Information, reload, say, sendembed,\nserverinfo, support, uptime", 
       },
       {
         name: "Modération",
@@ -26,11 +26,12 @@ exports.run = (client, message, params) => {
       },
       {
         name: "Utile",
-        value: "ping, ranime, vote",
+        value: "ping, ranime, vote, afk, remafk",
       },
       {
         name: "――――",
         value: `➜ Le prefix actuel de ce bot est ${settings.prefix}
+➜ Utilise /help + commande pour avoir des informations sur celle-ci
 ➜ [Invitation](${settings.invite})
 ➜ [Support](${settings.support})`,
       }
