@@ -7,7 +7,7 @@ var sayings = [":speech_balloon:  Je ne comprend vraiment pas ta logique",
   ":8ball: :speech_balloon: Plus un bruit !",
   ":8ball: :speech_balloon: A ce que je vois tu es le Loup Garou Blanc !",
   ":8ball: :speech_balloon: Penses-tu réellement que faire cette commandes était utile ?",
-  ":8ball: :speech_balloon: Je viens de te faire un don",
+  ":8ball: :speech_balloon: Outlook good",
   ":8ball: :speech_balloon: Oui...",
   ":8ball: :speech_balloon: Regarde là-bas ! Un Pigeon",
   ":8ball: :speech_balloon: Bye, Bye...",
@@ -36,7 +36,13 @@ var sayings = [":speech_balloon:  Je ne comprend vraiment pas ta logique",
   ":8ball: :speech_balloon: Ahah...",
   ":8ball: :speech_balloon: ...",
   ":8ball: :speech_balloon: Tu veux vraiment une réponse à cette question ?",
-  ":8ball: :speech_balloon: Stop ! Arrête de me ping !"];
+  ":8ball: :speech_balloon: Stop ! Arrête de me ping !",
+  ":8ball: :speech_balloon: Il se pourrait que la question posé n'est aucun but.",
+  ":8ball: :speech_balloon: Personellement je trouve que tu es vraiment idiot!",
+  ":8ball: :speech_balloon: Pourquoi Spam-tu cette commande ?",
+  ":8ball: :speech_balloon: Idiot...",
+  ":8ball: :speech_balloon: Pourquoi es-tu un enfant ?",
+  ":8ball: :speech_balloon: J'aime te sentir prêt de moi!"];
 
 			var result = Math.floor((Math.random() * sayings.length) + 1);
 			message.reply(sayings[result]);
